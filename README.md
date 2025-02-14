@@ -44,3 +44,9 @@ Repo for building and testing Github Actions
     test:
         python -m pytest -vv --cov=hello test_hello.py
     ```
+
+
+* Add itentity to terminal to push changes:
+    * Interminal type:
+    `git config --global user.name "im-octocat"`
+    `git config --global user.email "EMAIL ADDRESS"`
