@@ -1,3 +1,5 @@
+[![Azure Python 3.9.19 application test with Github actions](https://github.com/im-octocat/github-actions-demo/actions/workflows/main.yml/badge.svg)](https://github.com/im-octocat/github-actions-demo/actions/workflows/main.yml)
+
 # github-actions-demo
 Repo for building and testing Github Actions
 
