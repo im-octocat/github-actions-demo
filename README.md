@@ -48,5 +48,11 @@ Repo for building and testing Github Actions
 
 * Add itentity to terminal to push changes:
     * Interminal type:
-    `git config --global user.name "im-octocat"`
-    `git config --global user.email "EMAIL ADDRESS"`
+    ```
+    git config --global user.name "im-octocat"
+    git config --global user.email "EMAIL ADDRESS"
+    ```
+    * When doing `git push` you will be prompted for credentials. Enter:
+      * Your github username: `im-octocat`
+      * Your generated token (CTRL+SHIFT+V). You wil have to make token and IMPORTANT TO MAKE SURE YOU SET PERMISSIONS:
+      	* Create a [token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) and [permissions to have](https://stackoverflow.com/questions/71953666/remote-permission-to-repository-denied-url-returned-error-403).
